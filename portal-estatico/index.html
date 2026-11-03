@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inicio | Portal Estudiantil</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+</head>
+<body data-page="inicio">
+  <header class="topbar">
+    <button class="menu-trigger" type="button" data-open-menu aria-label="Abrir menú"><i class="bi bi-list"></i><span>Menú</span></button>
+    <img class="school-logos" src="assets/logos.png" alt="Tecnológico Nacional de México" />
+    <div class="topbar-right">
+      <div class="round-icon blue"><i class="bi bi-headset"></i></div>
+      <span class="header-separator"></span>
+      <div class="round-icon violet"><i class="bi bi-envelope-open-fill"></i></div>
+      <div class="round-icon orange"><i class="bi bi-bell-fill"></i><span class="notify-dot">1</span></div>
+      <span class="header-separator"></span>
+      <div class="small-avatar"><i class="bi bi-person-fill"></i></div>
+    </div>
+  </header>
+  <div class="scrim" data-close-menu></div>
+  <aside class="sidebar" aria-label="Menú lateral">
+    <div class="sidebar-top"><input placeholder="Buscar menú" aria-label="Buscar menú" readonly /><button type="button" data-close-menu aria-label="Cerrar menú"><i class="bi bi-x-lg"></i></button></div>
+    <nav class="sidebar-links">
+      <a href="index.html" class="selected"><i class="bi bi-house-door-fill"></i>Inicio</a>
+      <a href="#"><i class="bi bi-person-walking"></i>Actividades Complementarias</a>
+      <a href="#"><i class="bi bi-mortarboard-fill"></i>Datos Académicos</a>
+      <a href="#"><i class="bi bi-bar-chart-fill"></i>Evaluaciones y Encuestas</a>
+      <a href="mis-eventos.html"><i class="bi bi-award-fill"></i>Eventos y diplomas</a>
+      <a href="#"><i class="bi bi-hand-index-thumb-fill"></i>Necesidades Especiales</a>
+      <a href="#"><i class="bi bi-cash-coin"></i>Pagos</a>
+      <a href="#"><i class="bi bi-credit-card-fill"></i>Pendientes Inscripción</a>
+      <a href="#"><i class="bi bi-person-vcard-fill"></i>Reinscripción</a>
+      <a href="#"><i class="bi bi-briefcase-fill"></i>Residencias</a>
+      <a href="#"><i class="bi bi-heart-pulse-fill"></i>Servicio Social</a>
+      <a href="#"><i class="bi bi-journal-text"></i>Solicitudes</a>
+      <a href="#"><i class="bi bi-mortarboard-fill"></i>Titulación</a>
+      <a href="#"><i class="bi bi-umbrella-fill"></i>Verano</a>
+      <a href="#" class="logout"><i class="bi bi-box-arrow-right"></i>Salir</a>
+    </nav>
+  </aside>
+
+  <main class="main-home">
+    <section class="home-top">
+      <article class="profile-card">
+        <span class="ribbon">Activo regular</span>
+        <div class="profile-picture"><i class="bi bi-person-fill"></i></div>
+        <div class="student-name">USUARIO PRUEBA</div>
+        <div class="student-id">12345667</div>
+        <div class="credential">CREDENCIAL</div>
+        <div class="student-stats"><div><strong>67</strong><small>SEMESTRE</small></div><div><strong>67.67</strong><small>PROMEDIO</small></div><div><strong>142</strong><small>CRÉDITOS</small></div><div><strong>67.67%</strong><small>AVANCE</small></div></div>
+        <p class="student-degree">Estudiante de INGENIERÍA EN SISTEMAS<br> COMPUTACIONALES</p>
+      </article>
+      <section class="quick-grid" aria-label="Accesos principales">
+        <div class="quick-tile"><i class="bi bi-chat-dots-fill purple"></i><span>Mensajes</span></div>
+        <div class="quick-tile"><i class="bi bi-envelope-fill sky"></i><span>Buzón</span></div>
+        <div class="quick-tile"><i class="bi bi-mortarboard-fill indigo"></i><span>Académicos</span></div>
+        <div class="quick-tile"><i class="bi bi-horse black"></i><span>Pony CV</span></div>
+        <div class="quick-tile"><i class="bi bi-mortarboard-fill lime"></i><span>Titulación</span></div>
+        <div class="quick-tile"><i class="bi bi-controller amber"></i><span>Didácticas</span></div>
+        <div class="quick-tile"><span class="icon-count"><i class="bi bi-chat-square-dots orange-text"></i><b>0</b></span><span>Anuncios</span></div>
+        <div class="quick-tile"><span class="icon-count"><i class="bi bi-ticket-perforated-fill purple"></i><b>0</b></span><span>Eventos</span></div>
+        <div class="quick-tile"><span class="icon-count"><i class="bi bi-database-fill green"></i><b>0</b></span><span>Créditos Complementarios</span></div>
+      </section>
+    </section>
+    <section class="calendar-section">
+      <div class="calendar-header"><span class="calendar-label"><i class="bi bi-calendar3"></i> Calendario</span><h2>AGOSTO-DICIEMBRE / 2026</h2></div>
+      <div class="week-grid">
+        <div class="weekday"><h3>Lunes</h3><div class="course"><i class="bi bi-person-video3"></i>ADMINISTRACION<br>DE BASE DE<br>DATOS<em>Salon: LTW</em><span>07:00 AM -<br>08:00 AM</span></div><div class="course"><i class="bi bi-person-video3"></i>PROGRAMACIÓN<br>WEB<em>Salon: LAB</em><span>08:00 AM -<br>09:00 AM</span></div></div>
+        <div class="weekday"><h3>Sábado</h3><p>No hay actividades</p></div>
+      </div>
+    </section>
+  </main>
+  <footer>© 2026&nbsp; | &nbsp;Instituto Tecnológico de Morelia&nbsp; | &nbsp;<i class="bi bi-pentagon-fill"></i>&nbsp; Créditos SIM</footer>
+  <script src="script.js"></script>
+</body>
+</html>
